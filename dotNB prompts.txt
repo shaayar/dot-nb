@@ -1,0 +1,78 @@
+Main prompt: "design a prompt for the following app: The app named `.NB` is a notebook application that allows users to create, organize, and manage their notes efficiently. It operates entirely client-side, utilizing browser storage capabilities and optional GitHub integration for backup. It consists of notebooks initially which are further divided into sections -> sub-sections -> document. When user opens the app for first time, there are 2 notebooks created by default, one is password protected in which users can store their private information and in second one, it will be a regular notebook. In notebook's individual document, the users can attach links, images, tables, references to other documents of same notebook. After confirming with me, add some additional features which you may think are necessary and will make user experience better. Take OneNote from microsoft as a reference and enhance this app adding the features which OneNote lacks."
+
+Generated Prompt:
+
+**Prompt for `.NB` Notebook Application Design:**
+
+Design a sleek, modular, and user-friendly notebook application called `.NB`. The app operates entirely client-side, leveraging browser storage for private and efficient data handling, with optional GitHub integration for seamless backup and version control. The app is designed for maximum flexibility, productivity, and future scalability.  
+
+---
+
+### **Core Features**:
+1. **Notebook Structure**:
+   - Organize content into **Notebooks**, further divided into **Sections**, **Sub-sections**, and ultimately into **Documents**.
+   - Documents allow the inclusion of **links, images, tables**, and **references** to other documents within the same notebook.
+
+2. **Default Notebooks**:
+   - When users first open the app, two notebooks are automatically created:
+     - **Private Notebook**: Password-protected for storing sensitive information.
+     - **Regular Notebook**: A general-purpose notebook for everyday use.
+
+3. **Focus Mode**:
+   - A **Focus Mode** button in the menu hides all non-editor elements, creating a distraction-free environment for writing and editing.
+
+4. **Offline-First Architecture**:
+   - All data is stored locally using browser storage with complete offline functionality.
+   - Optional GitHub integration allows secure cloud backups and multi-device synchronization.
+
+5. **Export Options**:
+   - Support exporting individual documents or entire notebooks as **PDFs, Word documents, or Markdown files**.
+   - Include a **batch export** feature for archiving multiple documents or notebooks.
+
+---
+
+### **Modular Packages**:
+- `.NB` supports **modular packages**, allowing users to download only the features they want.  
+- Planned packages include:
+  1. **Single Notes**: A feature for quick, standalone notes outside the notebook hierarchy.
+  2. **Canvas for Brainstorming and Diagramming**: A flexible space for visual thinking and diagram creation.
+  3. **Floating To-Do List**: A persistent desktop element for tracking daily goals.
+
+---
+
+### **Enhanced Features**:
+1. **Customizable Templates**:
+   - Pre-designed templates for common use cases like meeting notes, journaling, and project planning.
+   - Allow users to create and save custom templates.
+
+2. **Rich Formatting**:
+   - Advanced text editing tools, collapsible sections, embedded code blocks with syntax highlighting, and Markdown support.
+
+3. **Tagging System**:
+   - Multi-dimensional, customizable tags with hierarchical organization and cross-tag search functionality.
+
+4. **Version Control**:
+   - Detailed document history with a timeline view and GitHub integration for tracking and reverting changes.
+
+5. **Advanced Search**:
+   - Keyword search, tag-based filtering, and OCR for searching text in images.
+
+6. **Customizable Themes and Layouts**:
+   - Dark mode, light mode, high-contrast themes, and personalized font and layout adjustments.
+
+7. **Collaboration Tools**:
+   - Real-time co-editing and granular sharing permissions (view-only or edit).
+
+8. **Cross-Notebook Linking**:
+   - Easily reference and link documents across different notebooks.
+
+9. **Integrated Task Management**:
+   - Task lists with deadlines, reminders, and links to specific documents.
+
+---
+
+### **Welcoming Screen**:
+- Upon launch, display a **welcome screen** introducing the app's core features.  
+- Show a **list of all available packages**, highlighting the modularity of `.NB`.  
+- Inform users that additional features—like **Single Notes**, **Canvas for Brainstorming**, and **Floating To-Do List**—will be available soon.  
+- Allow users to start with the default setup or explore and download desired packages.
