@@ -3,6 +3,7 @@
 ## 1. Code Style
 
 ### 1.1 TypeScript Guidelines
+
 ```typescript
 // Use interfaces for objects
 interface User {
@@ -27,6 +28,7 @@ function getData<T>(id: string): Promise<T> {
 ```
 
 ### 1.2 Component Structure
+
 ```typescript
 // Component file structure
 import { useState, useEffect } from 'react';
@@ -47,6 +49,7 @@ export const ComponentName: FC<Props> = ({ prop1, prop2 }) => {
 ## 2. Performance Guidelines
 
 ### 2.1 React Performance
+
 ```typescript
 // Use memo for expensive computations
 const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
@@ -68,6 +71,7 @@ const list = items.map(item => (
 ## 3. Security Guidelines
 
 ### 3.1 Data Handling
+
 ```typescript
 // Always sanitize user input
 const sanitizeInput = (input: string): string => {
